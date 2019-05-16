@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mappypals/static/css/main.f0229dd3.chunk.css",
+    "main.js": "/mappypals/static/js/main.801ab159.chunk.js",
+    "main.js.map": "/mappypals/static/js/main.801ab159.chunk.js.map",
+    "runtime~main.js": "/mappypals/static/js/runtime~main.11b2500f.js",
+    "runtime~main.js.map": "/mappypals/static/js/runtime~main.11b2500f.js.map",
+    "static/js/2.5f61d441.chunk.js": "/mappypals/static/js/2.5f61d441.chunk.js",
+    "static/js/2.5f61d441.chunk.js.map": "/mappypals/static/js/2.5f61d441.chunk.js.map",
+    "index.html": "/mappypals/index.html",
+    "precache-manifest.c1eb0141b0703e6fb4bec885d754e81d.js": "/mappypals/precache-manifest.c1eb0141b0703e6fb4bec885d754e81d.js",
+    "service-worker.js": "/mappypals/service-worker.js",
+    "static/css/main.f0229dd3.chunk.css.map": "/mappypals/static/css/main.f0229dd3.chunk.css.map",
+    "static/media/AboutUs.92aef774.svg": "/mappypals/static/media/AboutUs.92aef774.svg",
+    "static/media/FriendsIcon.2a233ab4.svg": "/mappypals/static/media/FriendsIcon.2a233ab4.svg",
+    "static/media/InviteFriends.ffd43200.svg": "/mappypals/static/media/InviteFriends.ffd43200.svg",
+    "static/media/Logo.b657997b.svg": "/mappypals/static/media/Logo.b657997b.svg",
+    "static/media/LogoInverted.svg": "/mappypals/static/media/LogoInverted.9ff0000d.svg",
+    "static/media/MySettingsIcon.75546895.svg": "/mappypals/static/media/MySettingsIcon.75546895.svg",
+    "static/media/Team.9b706218.svg": "/mappypals/static/media/Team.9b706218.svg",
+    "static/media/Home.css": "/mappypals/static/media/adult-backlit-beach.d96e6a53.jpg"
+  }
+}
