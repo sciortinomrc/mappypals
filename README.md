@@ -1,3 +1,7 @@
+[![security status](https://www.meterian.com/badge/gh/sciortinomrc/mappypals/security)](https://www.meterian.com/report/gh/sciortinomrc/mappypals)
+[![stability status](https://www.meterian.com/badge/gh/sciortinomrc/mappypals/stability)](https://www.meterian.com/report/gh/sciortinomrc/mappypals)
+[![licensing status](https://www.meterian.com/badge/gh/sciortinomrc/mappypals/licensing)](https://www.meterian.com/report/gh/sciortinomrc/mappypals)
+
 # MAPPYPALS :earth_africa:
 __An app that keeps track of your friends by putting them on a map__
 
