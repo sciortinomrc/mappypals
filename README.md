@@ -1,6 +1,9 @@
 # MAPPYPALS :earth_africa:
 __An app that keeps track of your friends by putting them on a map__
 
+
+[![security status](https://www.meterian.io/badge/pb/ba2b64a6-2aa8-4c7c-afba-8eeb72e9e5bb/security)](https://www.meterian.io/projects/?pid=ba2b64a6-2aa8-4c7c-afba-8eeb72e9e5bb) [![stability status](https://www.meterian.io/badge/pb/ba2b64a6-2aa8-4c7c-afba-8eeb72e9e5bb/stability)](https://www.meterian.io/projects/?pid=ba2b64a6-2aa8-4c7c-afba-8eeb72e9e5bb) [![licensing status](https://www.meterian.io/badge/pb/ba2b64a6-2aa8-4c7c-afba-8eeb72e9e5bb/licensing)](https://www.meterian.io/projects/?pid=ba2b64a6-2aa8-4c7c-afba-8eeb72e9e5bb)
+
 MappyPals is a collaboration project managed by a small group of dedicated fellow students. Building an application to provide users a platform to keep track of which countries their friends and family are in, to make meeting up an easier task.
 
 MappyPals is being built upon the MERN stack, with the intention of releasing and maintaining the project in the real world based upon user suggestions and feedback. Therefor providing an awesome opportunity not only the ability to expand on and learn new skills, but also a project you can include on your resume and show off to friends, family and potential employers.
