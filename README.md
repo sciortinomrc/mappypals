@@ -1,149 +1,152 @@
-# MAPPYPALS :earth_africa:
-__An app that keeps track of your friends by putting them on a map__
-
-MappyPals is a collaboration project managed by a small group of dedicated fellow students. Building an application to provide users a platform to keep track of which countries their friends and family are in, to make meeting up an easier task.
-
-MappyPals is being built upon the MERN stack, with the intention of releasing and maintaining the project in the real world based upon user suggestions and feedback. Therefor providing an awesome opportunity not only the ability to expand on and learn new skills, but also a project you can include on your resume and show off to friends, family and potential employers.
-
-### Useful Links
-- [Backend Repo](https://github.com/zero-to-mastery/mappypals_backend)
-- [Design Mock Ups](https://xd.adobe.com/spec/d0f02fb5-5fa5-4aff-63e8-d8d329d90a0d-a6c1/)
-- [Contributing Guide](https://github.com/zero-to-mastery/mappypals/blob/master/CONTRIBUTING.md)
-- [PR/Github Guide](https://github.com/zero-to-mastery/mappypals/blob/master/pr-guide.pdf)
-- [Dev Readme](https://github.com/zero-to-mastery/mappypals/blob/master/DEV_README.md)
-
-# Preface
-- __Background__: I’d like to travel to different countries but i’m unable to remember all the friends I have in those countries. 
-- __Problem Context__: It is difficult to remember all the friends you have across the globe and that could slow down your travel plan.
-- __Solution__: A web app that’ll allow you to add your friend and their detail, which will be displayed on the map. This would help in locating your friends in a specific country in which reaching out to them to host you would be much easier.  
-
-# Product Specs
-## Functionalities
-### Version 1.0
-* User Authentication (Login/Register)
-* CRUD Friends 
-* Display friends on a map based on their { country: ‘Azerbaijan’ };
-* Click on friend icon to view more details.
-### Version 2.0
-* Send out emails to added friends to join the platform
-* Friends can update their profile which should reflect across the entire app
-* Auto update friends new location (permission) which should reflect across the app
-* See your friend’s friends (mutual friends)
-
-## Tools
-- __Frontend__: React, CSS3
-- __Backend__: Node/MongoDB with mongoose
-- __Map Api__: MapBox/Google Maps
-
-## Overview
-Our mission is to make it easier for people (travelers, students) to connect with like-minded people abroad. 
-## Objectives
-* To make travelling easier by connecting travellers to the people they know in a particuliar city.
-* To connects travellers with similar interest (interest feature).
-* To help build travelling ituneraries.
-## Success Metrics
-* Have 500 signuos within the first week of our launch.
-* Get 1000 pinned pals within the first week of our launch.
-* Have 500 invites sign ups within the first week of our launch.
-## Messaging
-* None yet
-## Timeline/Release Plan
-## Release & Launch
-* [__ProductHunt__](https://www.producthunt.com/)
-* [__ZTM Discord__](https://zerotomastery.io/)
-* [__Grind Reel Discord__](https://discordapp.com/invite/rka6rvg)
-* [__Maker's Kitchen Slack__](https://makerskitchen.xyz/)
-* [__LinkedIn__](https://www.linkedin.com/)
-* [__Beta List__](https://betalist.com/)
-* [__Hacker News__](https://news.ycombinator.com/)
-## Personas
-__Persona X (Int’l Student)__
-Name: Lorem Ipsum
-Age: 22
-Nationality: Nigerian
-Profession: Student (Int’l student)
-Study Location: Malaysia (abroad)
-Employed: No
- 
-__Persona Y (Digital Nomad)__
-Name: John Doe 
-Age: 28
-Nationality: American
-Profession: Web Developer 
-Location: Bali, Indonesia
-Employed: Yes
-
-__Persona Z (Volunteer)__
-Name: Sally
-Age: 26
-Nationality: American
-Profession: Volunteerer  
-Location: Bali, Indonesia
-Employed: Yes
-
-## User Scenarios
-### User Sign Up/ Login
-* __User A__ is a student who stumbled upon MappyPals while reading through a travel blog about the best apps for meeting travellers, he think it’ll be a useful app for him to plan his next travel so he sings up to enjoy the full features MappyPals has to offer. 
-* __User B__ is a Digital Nomad who found out about MappyPals through our launch on ProductHunt, he thought it was an interesting app so as a tech junkie, he quickly signed up to test the app by adding some friends. Few months after, he’s about to travel to Germany where few of his friends are, he quickly loads the app and logs in to contact his friends in Germany. 
-### Map Functionalities
-#### Browser Permission
-* Upon logging in for the first time, the browser prompts a user to grant MappyPals the permission to use their location
-    * If YES, the map loads the user's current location
-    * If No, the map loads its default location (San Francisco)
-#### Map interaction
-* __User A__ is able interact with the Map by dragging it around and zooming in on a specific location.  
-#### Pin Friend to Map
-* When a user clicks/taps on the map, they a prompted with a form to add their friends details. 
-* When they click save, the friend is pinned to the point that specifically clicked on the map 
-* When a user hovers on a pinned friend, a Pop up emerges showing that specific person’s details 
-* When a user clicks on a pinned friend, they are directed to the friends profile where they’ll be able so see more details and possible drop them a message 	
-#### Friend Invitation Flow
-flow chart to copy/paste when push made
-### User Changes Location 
-* __user A__ moved from England to Ireland, so when he launches MappyPals, the application detects his current location and automatically updates it in database. All his pinned friends then gets a notification about the User A’s change of location and when his friend check their map, he’s no longer pinned on England, he’s now automatically pinned on Ireland. 
-*__User A__'s friends in Ireland and people with the same interests as him that live in Ireland then gets notified that he’s in the country.  
-### Search / Filter
-* __User B__ has now arrived safely in Germany so when he launches MappyPals, the current map position is Germany, but he then remembered that he has a friend in Brazil which he’d like to add to the map. He’s doesn’t want to go through the hassle of finding Brazil by dragging the map around endlessly, so he quickly searches for Brazil on the search bar which then repositioned the Map to Brazil. He’s now able to quickly add his friends whenever he remembers their location. Brazil might be User B’s next destination, who knows?
-### User Adds Travel Plan
-* Will be add later
-## User Stories / Features /Requirements
-Here are the full lists of feature we plan to implement throughout the lifespan of this product. It is important to know that the features might (and will) change based on the user feedbacks we get post-launch. Till then, these are some features we should keep in mind when building this application.
-
-* __P0__: The Minimum Viable Product (MVP) - these are the features we’re currently focused on building. Every other feature in P1 and P2 may or may not be build depending on the user feedback after launching. 
-* __P1__: Medium priority
-* __P2__: Low priority
-
-### P0
-* Landing page
-* Contact page
-* About us page
-* Login/Register/Reset Password
-* User Dashboard
-    * Edit details
-    * Settings
-* Pin friends to map
-    * Add friends manually
-    * Import from other social media platforms (future)
-* Friend Invitation
-    * Send out invitation emails to added friends who have not yet joined MappyPals
-* Search / Filter
-    * Filter by country
-    * Filter by interests
-
-### P1
-* Interests (future)
-    * Add your interests to your profil
-    * See people with similar interests
-* Mutual Friends
-    * Show a connecting line between mutual friends
-* In-App Messaging (future)
-    * Contact friends directly within the app
-* Places of attraction suggestion based on current location
-
-### P2
-* Add Travel itineraries (future)
-    * User should be able to add their travel plans and locations
-* In-App Notifications (future)
-    * Friends or locals in your travel destinations should be notified when you’ve update your travel plans.
-    * Friends or people with similar interests in particular location gets notified when you’re in their location 
-*   Travelling light? Cool, but someone else might need to send their friend a package with your unused space. Sell some of your travel space (kgs) to someone in need of it.
+# MAPPYPALS :earth_africa:\n
+__An app that keeps track of your friends by putting them on a map__\n
+\n
+\n
+[![security status](https://qa.meterian.io/badge/pb/da80341e-2b16-4a21-a490-183d78cace98/security)](https://qa.meterian.io/projects/?pid=da80341e-2b16-4a21-a490-183d78cace98) [![stability status](https://qa.meterian.io/badge/pb/da80341e-2b16-4a21-a490-183d78cace98/stability)](https://qa.meterian.io/projects/?pid=da80341e-2b16-4a21-a490-183d78cace98) [![licensing status](https://qa.meterian.io/badge/pb/da80341e-2b16-4a21-a490-183d78cace98/licensing)](https://qa.meterian.io/projects/?pid=da80341e-2b16-4a21-a490-183d78cace98)\n
+\n
+MappyPals is a collaboration project managed by a small group of dedicated fellow students. Building an application to provide users a platform to keep track of which countries their friends and family are in, to make meeting up an easier task.\n
+\n
+MappyPals is being built upon the MERN stack, with the intention of releasing and maintaining the project in the real world based upon user suggestions and feedback. Therefor providing an awesome opportunity not only the ability to expand on and learn new skills, but also a project you can include on your resume and show off to friends, family and potential employers.\n
+\n
+### Useful Links\n
+- [Backend Repo](https://github.com/zero-to-mastery/mappypals_backend)\n
+- [Design Mock Ups](https://xd.adobe.com/spec/d0f02fb5-5fa5-4aff-63e8-d8d329d90a0d-a6c1/)\n
+- [Contributing Guide](https://github.com/zero-to-mastery/mappypals/blob/master/CONTRIBUTING.md)\n
+- [PR/Github Guide](https://github.com/zero-to-mastery/mappypals/blob/master/pr-guide.pdf)\n
+- [Dev Readme](https://github.com/zero-to-mastery/mappypals/blob/master/DEV_README.md)\n
+\n
+# Preface\n
+- __Background__: I’d like to travel to different countries but i’m unable to remember all the friends I have in those countries. \n
+- __Problem Context__: It is difficult to remember all the friends you have across the globe and that could slow down your travel plan.\n
+- __Solution__: A web app that’ll allow you to add your friend and their detail, which will be displayed on the map. This would help in locating your friends in a specific country in which reaching out to them to host you would be much easier.  \n
+\n
+# Product Specs\n
+## Functionalities\n
+### Version 1.0\n
+* User Authentication (Login/Register)\n
+* CRUD Friends \n
+* Display friends on a map based on their { country: ‘Azerbaijan’ };\n
+* Click on friend icon to view more details.\n
+### Version 2.0\n
+* Send out emails to added friends to join the platform\n
+* Friends can update their profile which should reflect across the entire app\n
+* Auto update friends new location (permission) which should reflect across the app\n
+* See your friend’s friends (mutual friends)\n
+\n
+## Tools\n
+- __Frontend__: React, CSS3\n
+- __Backend__: Node/MongoDB with mongoose\n
+- __Map Api__: MapBox/Google Maps\n
+\n
+## Overview\n
+Our mission is to make it easier for people (travelers, students) to connect with like-minded people abroad. \n
+## Objectives\n
+* To make travelling easier by connecting travellers to the people they know in a particuliar city.\n
+* To connects travellers with similar interest (interest feature).\n
+* To help build travelling ituneraries.\n
+## Success Metrics\n
+* Have 500 signuos within the first week of our launch.\n
+* Get 1000 pinned pals within the first week of our launch.\n
+* Have 500 invites sign ups within the first week of our launch.\n
+## Messaging\n
+* None yet\n
+## Timeline/Release Plan\n
+## Release & Launch\n
+* [__ProductHunt__](https://www.producthunt.com/)\n
+* [__ZTM Discord__](https://zerotomastery.io/)\n
+* [__Grind Reel Discord__](https://discordapp.com/invite/rka6rvg)\n
+* [__Maker's Kitchen Slack__](https://makerskitchen.xyz/)\n
+* [__LinkedIn__](https://www.linkedin.com/)\n
+* [__Beta List__](https://betalist.com/)\n
+* [__Hacker News__](https://news.ycombinator.com/)\n
+## Personas\n
+__Persona X (Int’l Student)__\n
+Name: Lorem Ipsum\n
+Age: 22\n
+Nationality: Nigerian\n
+Profession: Student (Int’l student)\n
+Study Location: Malaysia (abroad)\n
+Employed: No\n
+ \n
+__Persona Y (Digital Nomad)__\n
+Name: John Doe \n
+Age: 28\n
+Nationality: American\n
+Profession: Web Developer \n
+Location: Bali, Indonesia\n
+Employed: Yes\n
+\n
+__Persona Z (Volunteer)__\n
+Name: Sally\n
+Age: 26\n
+Nationality: American\n
+Profession: Volunteerer  \n
+Location: Bali, Indonesia\n
+Employed: Yes\n
+\n
+## User Scenarios\n
+### User Sign Up/ Login\n
+* __User A__ is a student who stumbled upon MappyPals while reading through a travel blog about the best apps for meeting travellers, he think it’ll be a useful app for him to plan his next travel so he sings up to enjoy the full features MappyPals has to offer. \n
+* __User B__ is a Digital Nomad who found out about MappyPals through our launch on ProductHunt, he thought it was an interesting app so as a tech junkie, he quickly signed up to test the app by adding some friends. Few months after, he’s about to travel to Germany where few of his friends are, he quickly loads the app and logs in to contact his friends in Germany. \n
+### Map Functionalities\n
+#### Browser Permission\n
+* Upon logging in for the first time, the browser prompts a user to grant MappyPals the permission to use their location\n
+    * If YES, the map loads the user's current location\n
+    * If No, the map loads its default location (San Francisco)\n
+#### Map interaction\n
+* __User A__ is able interact with the Map by dragging it around and zooming in on a specific location.  \n
+#### Pin Friend to Map\n
+* When a user clicks/taps on the map, they a prompted with a form to add their friends details. \n
+* When they click save, the friend is pinned to the point that specifically clicked on the map \n
+* When a user hovers on a pinned friend, a Pop up emerges showing that specific person’s details \n
+* When a user clicks on a pinned friend, they are directed to the friends profile where they’ll be able so see more details and possible drop them a message 	\n
+#### Friend Invitation Flow\n
+flow chart to copy/paste when push made\n
+### User Changes Location \n
+* __user A__ moved from England to Ireland, so when he launches MappyPals, the application detects his current location and automatically updates it in database. All his pinned friends then gets a notification about the User A’s change of location and when his friend check their map, he’s no longer pinned on England, he’s now automatically pinned on Ireland. \n
+*__User A__'s friends in Ireland and people with the same interests as him that live in Ireland then gets notified that he’s in the country.  \n
+### Search / Filter\n
+* __User B__ has now arrived safely in Germany so when he launches MappyPals, the current map position is Germany, but he then remembered that he has a friend in Brazil which he’d like to add to the map. He’s doesn’t want to go through the hassle of finding Brazil by dragging the map around endlessly, so he quickly searches for Brazil on the search bar which then repositioned the Map to Brazil. He’s now able to quickly add his friends whenever he remembers their location. Brazil might be User B’s next destination, who knows?\n
+### User Adds Travel Plan\n
+* Will be add later\n
+## User Stories / Features /Requirements\n
+Here are the full lists of feature we plan to implement throughout the lifespan of this product. It is important to know that the features might (and will) change based on the user feedbacks we get post-launch. Till then, these are some features we should keep in mind when building this application.\n
+\n
+* __P0__: The Minimum Viable Product (MVP) - these are the features we’re currently focused on building. Every other feature in P1 and P2 may or may not be build depending on the user feedback after launching. \n
+* __P1__: Medium priority\n
+* __P2__: Low priority\n
+\n
+### P0\n
+* Landing page\n
+* Contact page\n
+* About us page\n
+* Login/Register/Reset Password\n
+* User Dashboard\n
+    * Edit details\n
+    * Settings\n
+* Pin friends to map\n
+    * Add friends manually\n
+    * Import from other social media platforms (future)\n
+* Friend Invitation\n
+    * Send out invitation emails to added friends who have not yet joined MappyPals\n
+* Search / Filter\n
+    * Filter by country\n
+    * Filter by interests\n
+\n
+### P1\n
+* Interests (future)\n
+    * Add your interests to your profil\n
+    * See people with similar interests\n
+* Mutual Friends\n
+    * Show a connecting line between mutual friends\n
+* In-App Messaging (future)\n
+    * Contact friends directly within the app\n
+* Places of attraction suggestion based on current location\n
+\n
+### P2\n
+* Add Travel itineraries (future)\n
+    * User should be able to add their travel plans and locations\n
+* In-App Notifications (future)\n
+    * Friends or locals in your travel destinations should be notified when you’ve update your travel plans.\n
+    * Friends or people with similar interests in particular location gets notified when you’re in their location \n
+*   Travelling light? Cool, but someone else might need to send their friend a package with your unused space. Sell some of your travel space (kgs) to someone in need of it.\n
