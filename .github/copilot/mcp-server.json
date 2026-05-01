@@ -1,8 +1,8 @@
 {
   "mcpServers": {
-    "github-script": {
+    "meterian": {
       "type": "local",
-      "command": "npx",
+      "command": "node",
       "args": ["github:MeterianHQ/heidi-vs-plugin#src/mcp/server/entry.js"]
     }
   }
